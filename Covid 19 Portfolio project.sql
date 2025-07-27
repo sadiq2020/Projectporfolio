@@ -5,6 +5,7 @@ SELECT * FROM portfolioproject.covidvaccinations
 order by 3, 4;
 
 -- Selecting columns that i'm going to work with
+
 SELECT location, date, total_deaths, new_deaths, total_cases, new_cases, population 
 FROM portfolioproject.coviddeaths;
 
@@ -147,7 +148,5 @@ FROM portfolioproject.coviddeaths
 group by location, population
 order by case_per_population desc;
 
-
-
-
-
+select 
+from PercentPopulationVaccinated;
